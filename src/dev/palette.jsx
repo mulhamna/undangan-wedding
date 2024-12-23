@@ -1,25 +1,20 @@
-import {Fragment} from "react"
+import React from 'react'
 import {
     Category,
     Component,
     Variant,
     Palette,
 } from "@react-buddy/ide-toolbox"
+import WeddingApp from '../App'
 
 export const PaletteTree = () => (
     <Palette>
-        <Category name="App">
-            <Component name="Loader">
+        <Category name="Wedding App">
+            <Component name="Main App">
                 <Variant>
-                    <ExampleLoaderComponent/>
+                    <WeddingApp/>
                 </Variant>
             </Component>
         </Category>
     </Palette>
 )
-
-export function ExampleLoaderComponent() {
-    return (
-        <Fragment>Loading...</Fragment>
-    )
-}

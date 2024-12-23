@@ -1,17 +1,13 @@
+/* Pindahkan @import ke paling atas */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-    html {
-        font-family: system-ui, sans-serif;
-    }
+body {
+    @apply bg-neutral-50;
 }
 
-@layer utilities {
-    .bg-image {
-        background-image: var(--bg-image);
-        background-size: cover;
-        background-position: center;
-    }
+.backdrop-blur-sm {
+    backdrop-filter: blur(4px);
 }

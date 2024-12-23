@@ -15,9 +15,6 @@ export default {
       },
       fontFamily: {
         dancing: ['Dancing Script', 'cursive']
-      },
-      backdropBlur: {
-        'sm': '4px',
       }
     }
   },
