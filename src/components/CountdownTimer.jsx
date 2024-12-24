@@ -33,7 +33,7 @@ const CountdownTimer = () => {
     }, []);
 
     return (
-        <div className="grid grid-cols-4 gap-4 text-white">
+        <div className="grid grid-cols-4 gap-4 text-black">
             {[
                 { label: 'Days', value: timeLeft.days },
                 { label: 'Hour', value: timeLeft.hours },

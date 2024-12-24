@@ -4,7 +4,7 @@ import { Calendar, MapPin, Clock } from 'lucide-react';
 const SpecialDayPage = () => (
     <section className="min-h-screen w-screen absolute left-[200%] flex items-center justify-center p-6">
         <div className="bg-white/90 p-8 rounded-lg shadow-lg max-w-md w-full">
-            <div className="border-2 border-brown-300 border-dashed p-4 mb-6">
+            <div className="border-4 border-brown-300 border-dashed p-4 mb-6">
                 <p className="text-gray-600 text-center">
                     Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri dari jenismu sendiri,
                     supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya diantaramu rasa kasih dan sayang.

@@ -165,7 +165,7 @@ const WishesPage = () => {
 // Timeline Item Component
 const TimelineItem = ({ year, title, content }) => (
     <div className="relative pl-8">
-        <div className="absolute left-0 w-4 h-4 bg-brown-600 rounded-full -translate-x-1/2"></div>
+        3
         <div className="bg-white p-4 rounded-lg shadow-sm">
             <h3 className="font-dancing text-lg mb-1">{year}: {title}</h3>
             <p className="text-gray-600 text-sm">{content}</p>
