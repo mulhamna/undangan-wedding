@@ -8,7 +8,9 @@ const CountdownPage = () => (
                 <div className="text-center">
                     <h2 className="text-2xl font-serif mb-4">The Wedding of</h2>
                     <h1 className="text-3xl font-dancing mb-4">Mulham & Anindhita</h1>
+                    {/*
                     <CountdownTimer />
+                    */}
                 </div>
             </div>
         </div>

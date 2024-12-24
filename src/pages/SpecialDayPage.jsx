@@ -28,10 +28,11 @@ const SpecialDayPage = () => (
                 <h3 className="text-xl font-dancing text-center mb-6">Akad Nikah</h3>
                 <div className="flex items-center gap-4">
                     <Calendar className="w-6 h-6 text-brown-600"/>
-                    <div>
+                    {/*<div>
                         <p className="text-gray-600">Minggu, 16 Februari 2025</p>
-                    </div>
+                    </div>*/}
                 </div>
+
                 <div className="flex items-center gap-4">
                     <Clock className="w-6 h-6 text-brown-600"/>
                     <div>
@@ -40,12 +41,12 @@ const SpecialDayPage = () => (
                 </div>
                 <div className="flex items-center gap-4">
                     <MapPin className="w-6 h-6 text-brown-600 flex-shrink-0"/>
-                    <div>
+                    {/*<div>
                         <p className="text-gray-600">
                             Gedung Auditorium Univ.Budi Luhur, Jl. Ciledug Raya,
                             Petukangan Utara, Kec. Pesanggrahan, Kota Jakarta Selatan
                         </p>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
 
@@ -53,9 +54,9 @@ const SpecialDayPage = () => (
                 <h3 className="text-xl font-dancing text-center mb-6">Resepsi</h3>
                 <div className="flex items-center gap-4">
                     <Calendar className="w-6 h-6 text-brown-600"/>
-                    <div>
+                    {/*<div>
                         <p className="text-gray-600">Minggu, 16 Februari 2025</p>
-                    </div>
+                    </div>*/}
                 </div>
                 <div className="flex items-center gap-4">
                     <Clock className="w-6 h-6 text-brown-600"/>
@@ -65,12 +66,12 @@ const SpecialDayPage = () => (
                 </div>
                 <div className="flex items-center gap-4">
                     <MapPin className="w-6 h-6 text-brown-600 flex-shrink-0"/>
-                    <div>
+                    {/*<div>
                         <p className="text-gray-600">
                             Gedung Auditorium Univ.Budi Luhur, Jl. Ciledug Raya,
                             Petukangan Utara, Kec. Pesanggrahan, Kota Jakarta Selatan
                         </p>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         </div>
